@@ -16,9 +16,10 @@ export class AvvocatoGridComponent implements OnInit {
     { field: 'nome' },
     { field: 'cognome', sortable: true, filter: true },
     { field: 'codiceFiscale'},
-    { field: 'cbillUnica'},
-    { field: 'cbillRata1'},
-    { field: 'cbillRata2'}
+    { field: 'cbill'},
+    { field: 'quota'}
+   // { field: 'cbillRata1'},
+    //{ field: 'cbillRata2'}
 ];
   
   constructor(private avvocatoService: AvvocatoService) { 
